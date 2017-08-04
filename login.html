@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/login.css"/>
+</head>
+<body>
+<!--本站为个人模仿网页模板-->
+<!--具有前后端交互,可以注册账号,和登录账号-->
+<!--顺便应聘个工作!!web前端开发,如果有意向的公司,可以联系我,邮箱: lincoln.liu@Live.cn  或者 21456680@qq.com-->
+<!--导航部分-->
+<nav id="nav">
+</nav>
+<!--登录界面-->
+<div id="login">
+    <!-- 登录界面边框-->
+    <div id="login-frame">
+        <!-- 登录标题-->
+        <div class="login-title clear">
+            <h1>请登录</h1>
+            <span>安全</span>
+        </div>
+        <!--登录界面内容-->
+        <div id="login-content">
+            <form action="#" id="logForm">
+                <h2>登录 Apple Store</h2>
+                <input type="text" name="AppleID" placeholder="Apple ID*" id="uname"/>
+                <div class="vali_info vali_false">
+                    Apple ID有误或Apple ID密码有误,请重新输入
+                </div>
+                <div class="vali_info vali_id">
+                    请输入正确账号格式：name@example.com
+                </div>
+                <input type="password" name="ApplePwd" placeholder="密码*"/>
+                <p class="clear">
+                    <a href="#">忘了自己的Apple ID 或密码？</a>
+                    <button type="button" id="log_btn">登录</button>
+                </p>
+            </form>
+            <div class="apple-service">
+                <h2>你可以使用自己的Apple ID来享用其他Apple服务，例如</h2>
+                <ul>
+                    <li>App Store</li>
+                    <li>iTunes Store</li>
+                    <li>iPhoto 打印服务</li>
+                    <li>iCloud</li>
+                </ul>
+                <p>
+                    <a href="regitser.html">没有 Apple ID？立即创建一个。</a>
+                </p>
+            </div>
+        </div>
+        <!-- 登录内容底部-->
+        <div id="login-footer">
+            <a href="index.html" class="btn-colse">取消</a>
+            <p>
+                如果您有问题，欢迎随时提问。
+                <span>
+                    400-666-8800
+                </span>
+            </p>
+        </div>
+    </div>
+</div>
+<div id="log_mask">
+    <div id="log_success">
+        <h2></h2>
+        <span>
+            <b>5</b>
+            秒后前往主页</span>
+        <p>
+            点击
+            <a href="#">购物</a>
+            跳转到主页面
+        </p>
+    </div>
+</div>
+<!--页脚-->
+<footer id="footer">
+</footer>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/public.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>

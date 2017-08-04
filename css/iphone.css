@@ -1,0 +1,857 @@
+#nav>ul>li a.active{
+    color: #8b8b8b;
+}
+/*product-list*/
+#product-list{
+    background: #141414;
+    text-align: center;
+}
+#product-list ul{
+    margin: 0 auto;
+    padding: 20px 0 10px 0;
+}
+#product-list ul li{
+   display: inline-block;
+}
+#product-list ul a{
+    display: block;
+    width: 60px;
+    padding-top: 50px;
+    padding-bottom: 16px;
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 11px;
+}
+#product-list ul li span{
+    position: absolute;
+    display: block;
+    color: #6bf;
+    top: 100%;
+    left: 20px;
+}
+#product-list a:hover{
+    color: #6bf;
+    text-decoration: none;
+}
+#product-list a.ip7{
+    background: url("../images/iphone7.png") no-repeat center top;
+    padding-bottom: 0px;
+    position: relative;
+}
+#product-list a.ip6s{
+    background: url("../images/iphone6s.png") no-repeat center top;
+}
+#product-list a.ipse{
+    background: url("../images/iphoneSE.png") no-repeat center top;
+}
+#product-list a.ios10{
+    background: url("../images/ios10.png") no-repeat center top;
+}
+#product-list a.mountings{
+    background: url("../images/mountings.png") no-repeat center top;
+}
+#product-list a.relatively{
+    background: url("../images/relatively.png") no-repeat center top;
+}
+/*ihone7-content*/
+#iphone-content{
+    background: #F2F2F2;
+    text-align: center;
+}
+#iphone7-black{
+    background: #000;
+    padding-top: 50px;
+}
+#iphone7-black>div>h2{
+    opacity: 0;
+}
+#iphone7-black>div>h2{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+#iphone7-black>div>h2:nth-child(2){
+    font-size: 3.5em;
+    padding-left: 50px;
+}
+#iphone7-black>div>a{
+    color: #6bf;
+    font-size: 18px;
+    opacity: 0;
+}
+#iphone7-black>div>p{
+    padding: 30px 0;
+    font-size: 14px;
+    color: #cccccc;
+    opacity: 0;
+}
+#iphone7-black p>a{
+    color: #6bf;
+}
+div.iphone7-bg{
+    background: #000;
+    width: 100%;
+    min-height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.iphone7-bg img{
+    width: 50%;
+    position: absolute;
+    left: calc(50% - 25%);
+    opacity: 0;
+    bottom: -20%;
+}
+/*红色图片*/
+
+#iphone7-red{
+    margin-top: 50px;
+    color: #ffffff;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    /*display: none;*/
+}
+#iphone7-red>.floor{
+    position: absolute;
+    width: 0;
+    left: 50%;
+    overflow: hidden;
+    /*display: none;*/
+}
+#iphone7-red>.rel>p{
+    background: #CB3440;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+#iphone7-red img{
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+    left: -50%;
+}
+#iphone7-red .floor>div{
+    display: none;
+    opacity: 0;
+}
+/*公共样式*/
+div.rel{
+    position: relative;
+}
+
+div.rel>div{
+    position: absolute;
+    width: 30%;
+    top: 33%;
+    left: 55%;
+}
+div.rel>div span{
+    font-size: 14px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: transparent;
+    padding: 5px 10px;
+}
+div.rel>div h2{
+    font-size: 3em;
+    margin: 20px 0;
+    font-weight: normal;
+}
+div.rel>div a{
+    color: #ffffff;
+    display: block;
+    margin: 20px;
+    font-size: 14px;
+}
+div.rel>p{
+    width: 70%;
+    /*height: 460px;*/
+    margin:0 auto;
+}
+/*紫色图片*/
+#iphone7-purple{
+    margin-top: 50px;
+    color: #ffffff;
+}
+#iphone7-purple>div.floor{
+    height: 460px;
+    overflow: hidden;
+    display: none;
+}
+#iphone7-purple>.floor>p{
+    position: absolute;
+    overflow: hidden;
+    left: calc(50% - 35%);
+    top: 50%;
+    height: 0px;
+    opacity: 0;
+    background: linear-gradient(to bottom,#AD4AC4,#4D1C74);
+}
+#iphone7-purple img{
+    position: absolute;
+    bottom: 0;
+}
+#iphone7-purple img:nth-child(2){
+    width: 23%;
+    right: 21%;
+    z-index: 5;
+    opacity: 0;
+}
+#iphone7-purple img:nth-child(1){
+    width: 18%;
+    z-index: 2;
+    right: 26%;
+    opacity: 0;
+}
+#iphone7-purple img:nth-child(3){
+    width: 18%;
+    right: 22%;
+    opacity: 0;
+    z-index: 2;
+}
+#iphone7-purple>div.rel{
+    position: relative;
+}
+#iphone7-purple>div.rel>div{
+    position: absolute;
+    /*display: none;*/
+    top: 33%;
+    left: 15%;
+    height: 500px;
+}
+#iphone7-purple>div.rel>div>h2{
+    position: absolute;
+    left: 26%;
+    top: 16%;
+    opacity: 0;
+    font-size: 38px;
+    margin: 20px 0;
+    font-weight: normal;
+}
+#iphone7-purple>div.rel>div>a:nth-child(3){
+    position: absolute;
+    top: 30%;
+    opacity: 0;
+    left: 37%;
+}
+#iphone7-purple>div.rel>div>a:nth-child(4){
+    position: absolute;
+    top: 38%;
+    opacity: 0;
+    left: 39%;
+}
+#iphone7-purple>div.rel>div span{
+    font-size: 14px;
+    border: 1px solid #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: transparent;
+    padding: 5px 10px;
+    position: absolute;
+    left: 43%;
+    top: 15%;
+    opacity: 0;
+}
+#iphone7-purple>div.rel>div a{
+    color: #ffffff;
+    display: block;
+    margin: 20px;
+    font-size: 14px;
+}
+/**************airpods-mountings****************/
+/*airpods*/
+#airpods-mountings{
+    width: 70%;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+}
+div.airpods{
+    margin-right: 50px;
+    position: absolute;
+    left: 0%;
+    width: 48%;
+    overflow: hidden;
+}
+div.airpods>p{
+    width: 100%;
+}
+
+div.airpods>p>img{
+    width: 100%;
+}
+div.airpods>div{
+    position: absolute;
+    top:14%;
+    left: calc(50% - 118.5px);
+    width: 50%;
+}
+.flyRight{
+    animation: flyRight 2s linear forwards;
+}
+.flyLeft{
+    animation: flyLeft 2s linear forwards;
+}
+@keyframes flyRight {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+        transform: scale3d(.1, .1, .1) translate3d(1000px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+        transform: scale3d(.475, .475, .475) translate3d(-10px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    }
+}
+@keyframes flyLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+        transform: scale3d(.1, .1, .1) translate3d(-1000px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+        animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+        transform: scale3d(.475, .475, .475) translate3d(10px, 0, 0);
+        -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+    }
+}
+div.airpods>div>span{
+    color: #333;
+    font-size: 2rem;
+    border: 0px;
+}
+div.airpods>div>h2{
+    color: #333;
+    margin: 5px 0;
+    font-size: 1.3rem;
+}
+div.airpods>div>a{
+    color: #0070c9;
+    font-size: 1rem;
+}
+/*mountings*/
+div.mountings{
+    position: absolute;
+    right: 0;
+    width: 48%;
+}
+div.mountings>div{
+    position: absolute;
+    top: 14%;
+    left: calc(50% - 118.5px);
+    width: 50%;
+}
+div.mountings>p{
+    width: 100%;
+}
+div.mountings>p>img{
+    width: 100%;
+}
+div.mountings>div>span{
+    color: #ffffff;
+    border: 0;
+    font-size: 2rem;
+}
+div.mountings>div>h2{
+    color: #ffffff;
+    margin: 5px 0;
+    font-size: 1.3rem;
+}
+div.mountings>div>a{
+    color: #6bf;
+    font-size: 1rem;
+}
+/************机型比较************/
+#iphone7-relatively{
+    margin-top: 50px;
+    height: 460px;
+}
+#iphone7-relatively>div.relatively>p{
+    width: 100%;
+    position: absolute;
+    background: #ffffff;
+    left: 0;
+    height: 460px;
+}
+#iphone7-relatively>div.relatively{
+    height: 0px;
+    width: 0%;
+    margin: 0 auto;
+}
+div.relatively>p>img{
+    width: 100%;
+    /*vertical-align: bottom;*/
+}
+div.relatively>ul{
+    position: absolute;
+    top: 40%;
+    height: 200px;
+    width: 100%;
+}
+div.relatively>ul>li{
+    position: absolute;
+    bottom: 0;
+}
+div.relatively>ul>li:nth-child(1){
+    z-index: 5;
+    opacity: 0;
+}
+div.relatively>ul>li:nth-child(2){
+    opacity: 0;
+    z-index: 4;
+}
+div.relatively>ul>li:nth-child(3){
+    opacity: 0;
+    z-index: 3;
+}
+div.relatively>ul>li:nth-child(4){
+    opacity: 0;
+    z-index: 2;
+}
+div.relatively>ul>li:nth-child(5){
+    opacity: 0;
+    z-index: 1;
+}
+div.relatively>ul>li>img{
+    width: 100%;
+}
+div.relatively>ul>li:nth-child(1):after {
+    content: 'iPhone7 Plus';
+    position: absolute;
+    bottom: -15%;
+    left: calc(50% - 15%);
+    color: #000;
+    font-weight: bold;
+    opacity: 0;
+
+}
+div.relatively>ul>li:after{
+    transition: opacity 1s linear;
+}
+div.relatively>ul>li:nth-child(2):after {
+    content: 'iPhone7';
+    position: absolute;
+    bottom: -18%;
+    left: calc(50% - 15%);
+    color: #000;
+    font-weight: bold;
+    opacity: 0;
+}
+div.relatively>ul>li:nth-child(3):after {
+    content: 'iPhone6s Plus';
+    position: absolute;
+    bottom: -15%;
+    left: calc(50% - 24%);
+    color: #000;
+    font-weight: bold;
+    opacity: 0;
+}
+div.relatively>ul>li:nth-child(4):after {
+    content: 'iPhone6s';
+    position: absolute;
+    bottom: -17%;
+    left: calc(50% - 15%);
+    color: #000;
+    font-weight: bold;
+    opacity: 0;
+}
+div.relatively>ul>li:nth-child(5):after {
+    content: 'iPhone5 SE';
+    position: absolute;
+    bottom: -19%;
+    left: calc(50% - 27%);
+    color: #000;
+    font-weight: bold;
+    opacity: 0;
+}
+#iphone7-relatively>div.relatively>div{
+    top: 10%;
+    position: absolute;
+    left: 36%;
+    opacity: 0;
+}
+#iphone7-relatively>div.relatively>.rela-list>li.afterShow:after{
+    opacity: 1;
+}
+div.relatively>div>h2{
+    color: #333;
+}
+div.relatively>div>a{
+    color: #0070C9;
+}
+.linghIn{
+    animation: lightIn 1s linear forwards;
+}
+@keyframes lightIn {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+        transform: translate3d(100%, 0, 0) skewX(-30deg);
+        opacity: 0;
+    }
+
+    60% {
+        -webkit-transform: skewX(20deg);
+        transform: skewX(20deg);
+        opacity: 1;
+    }
+
+    80% {
+        -webkit-transform: skewX(-5deg);
+        transform: skewX(-5deg);
+        opacity: 1;
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+    }
+}
+/*************加入iphone**************/
+#join-iphone{
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+div.join-iphone{
+    margin-right: 50px;
+    position: relative;
+    width: 48%;
+}
+div.join-iphone>p{
+    width: 100%;
+    height: 590px;
+    background: #ffffff;
+    position: relative;
+
+}
+div.join-iphone>p>img{
+    width: 100%;
+    position: absolute;
+    max-height: 0%;
+    top: 40%;
+    left: 0;
+    opacity: 0;
+}
+div.join-iphone>div{
+    position: absolute;
+    top:10%;
+    left: calc(50% - 106px);
+}
+div.join-iphone>div>span{
+    color: #333;
+    font-size: 38px;
+    border: 0px;
+}
+div.join-iphone>div>h2{
+    color: #333;
+}
+div.join-iphone>div>a {
+    color: #0070c9;
+}
+div.join-iphone>ul{
+    position: absolute;
+    width: 60%;
+    bottom: 5%;
+    left: calc(50% - 25%);
+    text-align: left;
+    color: #000;
+}
+div.join-iphone>ul>li{
+    padding-left: 25px;
+    background: url("../images/background-images.png") no-repeat 0 -152px;
+    line-height: 2.5em;
+    opacity: 0;
+}
+div.join-iphone>ul>li:last-child{
+    background: none;
+    padding-left: 0;
+}
+div.join-iphone>ul>li a{
+    color: #0070C9;
+    display: inline-block;
+}
+/*new iphone*/
+div.new-iphone>p{
+    width: 100%;
+    background: #ffffff;
+    height: 590px;
+    position: relative;
+    overflow: hidden;
+}
+div.new-iphone{
+    position: relative;
+    width: 48%;
+}
+div.new-iphone>div{
+    position: absolute;
+    top: 10%;
+    left: calc(50% - 163px);
+    background-attachment: fixed;
+}
+div.new-iphone>p>img{
+    position: absolute;
+}
+div.new-iphone>p>img:first-child{
+    z-index: 2;
+    max-width: 70%;
+    left: calc(50% - 25%);
+    bottom: 0;
+}
+div.new-iphone>p>img:last-child{
+    z-index: 1;
+    left: 3%;
+    bottom: -54%;
+    opacity: 0;
+}
+div.new-iphone>div>span{
+    color: #333;
+    border: 0;
+    font-size: 38px;
+}
+div.new-iphone>div>h2{
+    color: #333;
+}
+div.new-iphone>div>a{
+    color: #0070C9;
+}
+div.new-iphone>div>p{
+    color: #333;
+    font-size: 16px;
+}
+
+/***************商店与配送***************/
+#store-send{
+    margin: 70px 0;
+    display: flex;
+    justify-content: center;
+    color: #333;
+}
+div.store{
+    margin-right: 150px;
+}
+#store-send span{
+    display: inline-block;
+    width: 40px;
+    height: 44px;
+    background: url("../images/app_store.png") no-repeat center center;
+    margin-bottom: 10px;
+}
+#store-send h2{
+    font-weight: normal;
+    margin-bottom:10px;
+}
+#store-send p{
+    width: 300px;
+    margin-bottom: 10px;
+}
+#store-send a{
+    color: #0070c9;
+}
+#store-send>div.send>span{
+    background: url("../images/app_send.jpg") no-repeat center center;
+}
+/****************如何购买iphone*******************/
+#how-buy{
+    position: relative;
+}
+#how-buy>div{
+    width: 70%;
+    margin: 0 auto;
+}
+#how-buy>div.floor>div{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    bottom: 0;
+    right: 0;
+    width: 15%;
+    display: inline-block;
+}
+#how-buy>p{
+    width: 100%;
+    /*margin: 0 auto;*/
+}
+#how-buy>div>p>img{
+    width: 100%;
+}
+#how-buy>div.floor>div h2{
+    color: #333;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+#how-buy div a{
+    color: #0070C9;
+}
+
+#how-buy>div.floor>div:nth-child(3){
+    display: inline-block;
+    top: 40%;
+    left: 66%;
+    right: 0;
+    bottom: 0;
+}
+/*****************apple-pay*******************/
+@keyframes flipInX {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+        opacity: 1;
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+        transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px);
+    }
+}
+.flipInX{
+    animation: flipInX .8s linear;
+}
+@keyframes flipInY {
+    from {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0;
+    }
+
+    40% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    60% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+        opacity: 1;
+    }
+
+    80% {
+        -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+        transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    }
+
+    to {
+        -webkit-transform: perspective(400px);
+        transform: perspective(400px);
+    }
+}
+.flipInY{
+    animation: flipInY .8s linear .8s;
+    animation-fill-mode: both;
+}
+#apple-pay{
+    margin-top: 50px;
+    width: 100%;
+}
+div.apple-pay>div{
+    width: 25%;
+}
+div.apple-pay>p{
+    width: 100%;
+    color: #333;
+    font-size: 14px;
+    line-height: 25px;
+}
+div.apple-pay>p>img{
+    width: 100%;
+}
+div.apple-pay>div>a{
+    color: #00709c;
+}
+
+
+/***************商务应用***************/
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform:scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform:scale(1);
+    }
+}
+.fadeIn{
+    animation: fadeIn .8s linear;
+    /*animation-fill-mode: both;*/
+}
+#iphone7-business{
+    margin-top: 50px;
+    color: #ffffff;
+}
+#iphone7-business div.rel>p{
+    width: 100%;
+}
+#iphone7-business img{
+    width: 100%;
+}
+#iphone7-business>div.rel{
+    position: relative;
+}
+#iphone7-business>div.rel>div{
+    position: absolute;
+    top: 33%;
+    left: 20%;
+}
+#iphone7-business>div.rel>div h2{
+    font-size: 34px;
+    margin: 20px 0;
+    font-weight: normal;
+}
+#iphone7-business>div.rel>div a{
+    color: #6bf;
+    display: block;
+    margin: 20px;
+    font-size: 14px;
+}
+

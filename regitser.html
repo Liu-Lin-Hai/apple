@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
+</head>
+<body>
+<!--本站为个人模仿网页模板-->
+<!--具有前后端交互,可以注册账号,和登录账号-->
+<!--顺便应聘个工作!!web前端开发,如果有意向的公司,可以联系我,邮箱: lincoln.liu@Live.cn  或者 21456680@qq.com-->
+<!--导航部分-->
+<nav id="nav">
+</nav>
+<!--apple id-->
+<div id="apple-id-container">
+    <div class="apple-id-content clear">
+        <h1>Apple ID</h1>
+        <ul>
+            <li>
+                <a href="login.html">登录</a>
+            </li>
+            <li>创建您的Apple ID</li>
+            <li>
+                <a href="#">常见问题解答</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--注册界面-->
+<div id="register">
+    <div class="register-header">
+        <p>创建您的 Apple ID</p>
+    </div>
+    <div id="register-content">
+        <form id="regForm">
+            <!-- 注册资料-->
+            <div class="reg-section">
+                <div class="reg-info">
+                    <p>只需一个 Apple ID，您即可访问 Apple 所有内容。</p>
+                    <p>
+                        已有一个 Apple ID？
+                        <a href="#">
+                            在此查找&gt;
+                        </a>
+                    </p>
+                    <input type="text" name="email" placeholder="name@example.com" class="marb35 question w460"/>
+                    <div class="vali_info vali_uname">
+                        用户名格式不正确：name@example.com
+                    </div>
+                    <div class="vali_info vali_email">
+                        该邮箱已注册,可以直接使用该邮箱登录,点击<a href="#" id="log_btn">登录</a>即可跳转到登录界面
+                    </div>
+                    <input type="password" name="pwd" placeholder="密码" class="w460"/>
+                    <div class="vali_info vali_upwd">
+                        密码格式不正确:<br>必须包含至少一位大写字母<br>使用英文和数字组合8-20个字符
+                    </div>
+                    <input type="password" name="pwd1" placeholder="确认密码" class="marb35 w460"/>
+                    <div class="vali_info vali_upwd2">
+                        两次密码输入不一致
+                    </div>
+                    <input type="text" name="first_name" placeholder="姓氏" class="w200 f-name"/>
+                    <input type="text" name="last_name" placeholder="名字" class="w200"/>
+                    <div class="vali_info vali_name">
+                        请输入姓名
+                    </div>
+                    <input type="date" name="birthDay" placeholder="出生日期" class="marb35 question w460" id="DataOfBirth"/>
+                    <div class="vali_info vali_birth">
+                        请输入正确的日期:xxxx-xx-xx
+                    </div>
+                </div>
+            </div>
+            <!-- 提示问题-->
+            <div class="reg-section">
+                <div id="reg-safe-question">
+                    <select id="ques1" name="ques1">
+                        <option value="safe_question">安全提示问题1</option>
+                        <option value="friend-name">你少年时代最好的朋友叫什么名字？</option>
+                        <option value="pet_name">你的第一个宠物叫什么名字？</option>
+                        <option value="dish_name">你学会做的第一道菜是什么？</option>
+                        <option value="film_name">你第一次去电影院的是哪一部电影？</option>
+                        <option value="fly_where">你第一次坐飞机是去哪里？</option>
+                        <option value="teacher_name">你上小学最喜欢的老师姓什么？</option>
+                    </select>
+                    <div class="vali_info vali_ques1">
+                        请选择安全提示问题
+                    </div>
+                    <input type="text" name="answer_one" placeholder="答案" class="marb35  w460"/>
+                    <div class="vali_info vali_answer1">
+                        请输入3-20个字符,不能包含特殊符号,比如"_,#,$..."
+                    </div>
+                    <select id="ques2" name="ques2">
+                        <option value="safe_question">安全提示问题2</option>
+                        <option value="job">你理想工作是什么？</option>
+                        <option value="book">你小时候最喜欢那一本书？</option>
+                        <option value="car">你拥有的第一辆车是什么型号？</option>
+                        <option value="nickname">你童年时代的绰号是什么？</option>
+                        <option value="film_star">你在学生时代最喜欢哪个电影明星或角色？</option>
+                        <option value="singer">你在学生时代最喜欢哪个歌手或乐队？</option>
+                    </select>
+                    <div class="vali_info vali_ques2">
+                        请选择安全提示问题
+                    </div>
+                    <input type="text" name="answer_two" placeholder="答案" class="marb35  w460"/>
+                    <div class="vali_info vali_answer2">
+                        请输入3-20个字符,不能包含特殊符号,比如"_,#,$..."
+                    </div>
+                    <select id="ques3" name="ques3">
+                        <option value="safe_question">安全提示问题3</option>
+                        <option value="parent">你的父母是在哪里认识的？</option>
+                        <option value="boss">你的第一个上司叫什么？</option>
+                        <option value="street">你从小长大的那条街叫什么？</option>
+                        <option value="lido">你去过的第一个海滨浴场是哪一个？</option>
+                        <option value="special">你购买的第一张专辑是什么？</option>
+                        <option value="ball_team">你最喜欢哪个球队？</option>
+                    </select>
+                    <div class="vali_info vali_ques3">
+                        请选择安全提示问题
+                    </div>
+                    <input type="text" name="answer_three" placeholder="答案" class="marb35  w460"/>
+                    <div class="vali_info vali_answer3">
+                        请输入3-20个字符,不能包含特殊符号,比如"_,#,$..."
+                    </div>
+                    <p>这些问题将用于验证您的身份，以及在您忘记密码时恢复您的密码。</p>
+                </div>
+            </div>
+            <!-- 地区-->
+            <div class="reg-section">
+                <div id="reg-country">
+                    <select id="sel_country">
+                        <option value="CHN">中国</option>
+                        <option value="US">美国</option>
+                        <option value="KOR">韩国</option>
+                        <option value="JPN">日本</option>
+                        <option value="MLXY">马来西亚</option>
+                        <option value="YG">英国</option>
+                        <option value="ELS">俄罗斯</option>
+                    </select>
+                    <div id="announcement">
+                        <label for="news">
+                            <input type="checkbox" name="news" id="news"/>
+                            <b>公告</b>
+                            <p>获取有关 Apple 产品、服务、软件更新的公告、推荐和更新。</p>
+                        </label>
+                    </div>
+                    <div id="apple-music">
+                        <label for="itunes">
+                            <input type="checkbox" id="itunes" name="itunes"/>
+                            <b>Apple Music,新 App 及更多内容</b>
+                            <p>获取有关音乐、App、电影、电视、书记、播客等的推荐、最新发布、特别优惠和独家内容</p>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- 验证码-->
+            <div class="reg-section">
+                <div id="reg-verify" class="clear">
+                    <div class="verify-left">
+                        <span class="verify_code"></span>
+                    </div>
+                    <div class="verify-right">
+                        <input type="text" name="verifyword" id="code" placeholder="键入图中的字符"/>
+                        <div class="vali_info vali_code">
+                            请输入正确的验证码,不区分大小写
+                        </div>
+                        <p>
+                            <a href="#" class="reset">
+                                新代码
+                            </a>
+                            <span></span>
+                            <a href="#" class="eyesight">
+                                视力障碍
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="reg-footer">
+                <p>
+                    Apple 致力于保护您的隐私。
+                    <a href="#">了解更多</a>
+                </p>
+                <h2>
+                    <a href="#" id="reg_btn">继续</a>
+                </h2>
+            </div>
+        </form>
+    </div>
+</div>
+<div id="reg_mask">
+    <div id="reg_success">
+        <h2></h2>
+        <span>
+            <b>5</b>
+            秒后前往登录界面</span>
+        <p>
+            点击
+            <a href="#">登录</a>
+            跳转到登录界面
+        </p>
+    </div>
+</div>
+<!--页脚-->
+<footer id="footer">
+</footer>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/public.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

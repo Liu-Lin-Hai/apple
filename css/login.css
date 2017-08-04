@@ -1,0 +1,202 @@
+#login{
+    background-color: #F1F1F1;
+    padding: 50px 0 10px 0;
+}
+#login-frame{
+    width: 930px;
+    margin:  auto;
+    min-height: 200px;
+    border: 1px solid #D2D2D2;
+    background-color: #ffffff;
+    /*box-sizing:border-box;*/
+    border-radius:5px;
+    box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+}
+#login-frame div.login-title{
+    margin: 20px;
+    padding-bottom: 10px;
+    border-bottom:1px solid #D2D2D2;
+}
+
+#login-frame div.login-title h1{
+    color: #000000;
+    font-weight: normal;
+}
+#login-frame div.login-title span{
+    float: right;
+    padding-left: 18px;
+    color: #888;
+    background: url("../images/background-images.png") no-repeat -20px -29px;
+    margin-top: -13px;
+}
+#login-content{
+    height: 400px;
+    background: url("../images/login_bg.jpg") no-repeat center center;
+}
+#login-content form{
+    float:left;
+    width: 350px;
+    padding: 50px 0 0 70px;
+}
+#login-content h2{
+    color: #000000;
+    margin-bottom: 15px;
+}
+#login-content input{
+    width: 338px;
+    height: 37px;
+    line-height: 24px;
+    border: 1px solid #D6D6D6;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 4px #aaaaaa;
+    padding-left: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#login-content form p a{
+    color:#0085CF;
+    float: left;
+    width: 140px;
+}
+#login-content p a:hover{
+    text-decoration: underline;
+}
+#login-content p button{
+    float: right;
+    width: 85px;
+    height: 35px;
+    border-radius:5px;
+    border:1px solid #1992D9;
+    color: #ffffff;
+    background: linear-gradient(to bottom,#35A8E9,#127FD2);
+    margin-right: 6px;
+}
+#login-content p button:hover{
+    cursor: pointer;
+}
+#logForm{
+    position: relative;
+}
+.vali_info{
+    color:#e4393c;
+    font-size: .8rem;
+    position: absolute;
+    top: 88px;
+    left: 102%;
+    width: 300px;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: center;
+    background: #FFFFC5;
+    border-radius: 5px;
+    border: 1px solid #D2D2D2;
+    display: none;
+}
+.vali_info:before{
+    content:'';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    background:#FFFFC5;
+    position: absolute;
+    border-left-color: #D2D2D2;
+    border-top-color: #D2D2D2;
+    left: -6px;
+    top: calc(50% - 6px);
+    transform:rotate(-45deg);
+}
+/*apple-服务*/
+#login-content div.apple-service{
+    width: 350px;
+    float: right;
+    padding: 50px 60px 0 0;
+}
+div.apple-service h2{
+    font-weight: normal;
+}
+div.apple-service ul{
+    list-style:disc outside none;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #666666;
+}
+div.apple-service ul li{
+    padding-left: 10px;
+    line-height: 24px;
+}
+div.apple-service p{
+    margin-top: 15px;
+}
+div.apple-service p a{
+    color: #0085CF;
+}
+/*注册成功弹窗*/
+#log_mask{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*background: rgba(255, 255, 255, .5);*/
+    position: fixed;
+    z-index: 20;
+    display: none;
+}
+#log_success{
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    top: calc(50% - 75px);
+    left: calc(50% - 150px);
+    border: 1px solid #D6D6D6;
+    border-radius:5px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 0 0 5px #a7a7a7;
+    opacity: 0;
+}
+#log_success p{
+    font-size: 1em;
+}
+#log_success span{
+    font-size: 1em;
+}
+#log_success span b{
+    color: #000;
+}
+#log_success a{
+    color: #0070C9;
+}
+/*apple-content底部*/
+#login-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top:1px solid #D6D6D6;
+    background: linear-gradient(to bottom,#ffffff,#EBEBEB);
+    padding: 15px 20px;
+}
+#login-footer a.btn-colse{
+    display: inline-block;
+    width: 84px;
+    height: 35px;
+    border-radius:5px;
+    border:1px solid #B5B5B5;
+    color: #4F85D8;
+    background: linear-gradient(to bottom,#ffffff,#EBEBEB);
+    line-height: 35px;
+    text-align: center;
+}
+#login-footer a.btn-colse:hover{
+    background: linear-gradient(to bottom,#ffffff,#D7D7D7);
+    cursor: pointer;
+}
+#login-footer p>span{
+    display:inline-block;
+    padding-left: 16px;
+    background: url("../images/background-images.png") no-repeat 0 -70px;
+}
